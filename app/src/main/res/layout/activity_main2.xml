@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hoaithuong.hci_android.UI.MainActivity">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:id="@+id/container_setting"
+        android:layout_weight="19"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:id="@+id/container_search">
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="17"
+            >
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#14bf9a"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:id="@+id/btnSach"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:text="Sách"
+            android:textStyle="italic"
+            android:background="#ed3131"
+          android:gravity="center"
+            android:drawableTop="@drawable/book"
+         />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:id="@+id/btnSachCuaToi"
+            android:textStyle="italic"
+            android:text="Sách của tôi"
+            android:drawableTop="@drawable/doc"
+            android:textColor="#ffffff"
+            android:background="#ed3131"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:gravity="center"
+
+           />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:id="@+id/btnMuonSach"
+            android:textStyle="italic"
+            android:text="Mượn sách"
+            android:drawableTop="@drawable/save"
+            android:textColor="#ffffff"
+            android:background="#ed3131"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:gravity="center"
+
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:id="@+id/btnAccount"
+            android:textStyle="italic"
+            android:text="Tài khoản"
+            android:drawableTop="@drawable/ac"
+            android:textColor="#ffffff"
+            android:background="#ed3131"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:gravity="center"
+
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Cài đặt"
+            android:id="@+id/btnSetting"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:background="#ed3131"
+            android:drawableTop="@drawable/setting"
+
+            android:textSize="15sp"
+            android:textStyle="italic"
+           />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"></LinearLayout>
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d1a183">
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:textAlignment="center"
+    android:gravity="center"
+    android:textColor="#e70a0a"
+    android:text="Tài khoản"
+    android:id="@+id/tvAccountTitle"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:id="@+id/imvAvatar"
+        />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:id="@+id/tvName"
+            android:text="Họ tên: Dương Hoài Thương"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:id="@+id/tvSdt"
+            android:text="01234567890"
+            android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chỉnh sửa thông tin"
+        android:id="@+id/btnEdit"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng xuất"
+        android:id="@+id/btnLogout"
+        android:textAllCaps="false"
+        android:textAlignment="center"/>
+</LinearLayout>

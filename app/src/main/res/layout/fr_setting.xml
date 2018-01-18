@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#b4faf2">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+<TextView
+    android:layout_width="fill_parent"
+    android:background="#5bf0f5"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:textSize="20sp"
+    android:textStyle="italic|bold"
+    android:textAlignment="center"
+    android:text="Cài đặt"
+    android:gravity="center"
+    android:textColor="#fc0101"
+    android:id="@+id/tvfrSettingTitle"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#095cf5">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#f4cdcd"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Ngôn ngữ"
+            android:layout_marginLeft="30dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginRight="40dp"
+            android:id="@+id/tvfrSettingLanguage"
+            />
+        <Spinner
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/spSetting"
+            >
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#095cf5">
+    </LinearLayout>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:text="Cập nhật dữ liệu"
+        android:id="@+id/btnfrSettingUpdateData"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Đánh gía chúng tôi"
+        android:id="@+id/btnfrSettingDG"
+        android:textSize="15sp"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:text="Thông tin nhà phát triển"
+        android:id="@+id/btnfrSettingInfo"/>
+</LinearLayout>
+</LinearLayout>

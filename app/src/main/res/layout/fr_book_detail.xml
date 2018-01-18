@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical"
+    android:background="#d1a183">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/btnBack"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Thông tin chi tiết"
+        android:textAlignment="center"
+        android:textColor="#e4293e"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="#b7ecb7"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imvBookDetail"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvBookDetailTitle"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+              />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvBookDetailWriter"
+                android:textStyle="italic"
+                android:textSize="18sp"
+
+              />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvBookDetailType"
+                android:textColor="#4149e6"
+                android:textSize="16sp"
+
+              />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvBookDetailStatus"
+                android:textStyle="normal"
+                android:textSize="18sp"
+
+              />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvBookDetail"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="#b7ecb7"
+
+        android:textSize="15sp"
+        android:textStyle="italic" />
+</LinearLayout>

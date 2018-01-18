@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+    android:id="@+id/container1"
+              android:layout_height="fill_parent">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:id="@+id/layout"
+      >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tvfrBook"
+            android:text="Sách hiện có"
+            android:textStyle="italic|bold"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="#ace7d4"
+            android:textColor="#fc0101"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imbtnsearch"
+            android:layout_gravity="end"
+            />
+    </FrameLayout>
+
+    <ListView
+        android:background="#f1edbf"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:id="@+id/lvfrBook">
+    </ListView>
+</LinearLayout>
+</LinearLayout>

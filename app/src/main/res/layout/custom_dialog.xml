@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d1a183">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn nơi chia sẽ"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/imbtnFace"
+            android:layout_marginLeft="100px"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100px"
+            android:layout_marginLeft="200px"
+            android:id="@+id/imbtnTwitter"
+            />
+    </LinearLayout>
+</LinearLayout>
